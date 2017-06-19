@@ -6,7 +6,7 @@
 
 var React = require('react-native');
 var { NativeModules } = React;
-var NativeSpeechSynthesizer = NativeModules.SpeechSynthesizer;
+var NativeSpeechSynthesizer = NativeModules.SpeechSynthesizer || {};
 
 /**
  * High-level docs for the SpeechSynthesizer iOS API can be written here.
